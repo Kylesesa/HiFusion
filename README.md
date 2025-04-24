@@ -7,7 +7,7 @@ The official code of [*"HiFusion: An Unsupervised Infrared and Visible Image Fus
 ## Overview
 
 <p align="center">
-  <img src="assets\DiffCLIP.png" alt="overview" width="90%">
+  <img src="framework.pdf" alt="overview" width="90%">
 </p>
 
 ## Environment
