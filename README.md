@@ -9,6 +9,9 @@ The official code of [*"HiFusion: An Unsupervised Infrared and Visible Image Fus
 <p align="center">
   <img src="framework.png" alt="overview" width="90%">
 </p>
+<p align="center">
+    The overall framework of the proposed HiFusion
+</p>
 
 ## Environment
 
