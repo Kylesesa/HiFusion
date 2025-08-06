@@ -24,10 +24,33 @@ matplotlib = 3.5.3
 opencv-python = 4.8.0.76
 ```
 Please make sure all dependencies are installed. If certain packages are missing, please install them manually. If you are unable to set up the environment successfully, please contact me.
+## Datasets
+```
+HiFusion (RCMCGAN_pytorch was its original name)
+├── 数据集
+|   ├── IR
+|   ├── VIS
+|   |
+|   ├── test_datasets 
+|   |   └── TNO
+|   |        ├──ir
+|   |        └──vis
+|   |   ├── MSRS
+|   |        ├──ir
+|   |        └──vis
+|   |   └── ...
+|   | 
+|   └── Other_datasets
+|   └── ...
+```
 
 ## Train 
+1. Train an autoencoder using the AE.py. Training weights are automatically saved.
+2. Set up the weight paths for the final AE in the main.py and start training the fusion network.
 
 ## Test
+1. Chose a function to generate fused images. (generate_VIFB can peocess rgb image)
+2. Set up the weight path for the fusion model (log_path), test set path (test_path) and the save path for the fused image (save_path) in the generate. py file.
 
 ## Citation
 
