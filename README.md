@@ -49,7 +49,7 @@ HiFusion (RCMCGAN_pytorch was its original name)
 2. Set up the weight paths for the final AE in the main.py and start training the fusion network.
 
 ## Test
-1. Chose a function to generate fused images. (generate_VIFB can peocess rgb image)
+1. Chose a function to generate fused images. (generate_VIFB)
 2. Set up the weight path for the fusion model (log_path), test set path (test_path) and the save path for the fused image (save_path) in the generate. py file.
 
 ## Citation
